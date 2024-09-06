@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-family: Orbitron;
+    background: rgb(2,0,36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    background-color: #fff;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 20, 20, 0.5);
+    padding: 30px;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#feedback {
+    margin-top: 20px;
+    color: #00796b;
+    font-weight: bold;
+}
+
+#hint {
+    margin-top: 10px;
+    color: #ff5722;
+    font-weight: bold;
+}
