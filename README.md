@@ -1,4 +1,5 @@
-# imersao-alura
+# Imersao-alura.
+
 Desafio HTML, CSS e JavaScript da Imersão ALURA com IA Gemini - Google
 
 ## Título: Jogo de Adivinhação de Palavras em JavaScript
