@@ -26,6 +26,13 @@ function checkGuess() {
         feedbackElement.innerText = "Parabéns! Você adivinhou a palavra secreta!";
         submitButton.disabled = true;  // Desabilita o botão após vencer
         hintButton.disabled = true;    // Desabilita o botão de dica
+
+        // Adiciona o efeito de confete ao acertar a palavra
+        confetti({
+            particleCount: 100,
+            spread: 70,
+            origin: { y: 0.7 }  // Origem do confete na tela (ajuste conforme necessário)
+        });
     } else {
         attempts--;
         attemptsElement.innerText = `Tentativas restantes: ${attempts}`;
@@ -39,6 +46,13 @@ function checkGuess() {
         }
     }
 }
+// function launchConfetti() {
+//     confetti({
+//         particleCount: 100,
+//         spread: 70,
+//         origin: { y: 0.6 }
+//     });
+// }
 
 // Função para mostrar a dica
 function showHint() {
@@ -74,9 +88,6 @@ function alterarFundoEVerificarResposta() {
     // Alterar o fundo da página
     document.body.style.backgroundColor = cores[indiceAleatorio];
 
-    // Obter a resposta do usuário (ajuste de acordo com sua implementação)
-    const respostaUsuario = document.getElementById('user-input').value;
-
 }
 
 const restartButton = document.getElementById('restart-btn');
@@ -104,4 +115,6 @@ function startGame() {
     // Esconde a dica (caso tenha sido mostrada)
     hintElement.style.display = 'none';
 }
+
+
 

@@ -10,24 +10,42 @@
             href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
             rel="stylesheet"
             />
-            <title>DEV Adivinhação</title>
+            <!-- link do confete -->
+            <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+            <title>APP TEST DEV</title>
             <link rel="stylesheet" href="styles.css" />
         </head>
         <body>
-            <div class="game-container">
-                <h1>Jogo de Adivinhação</h1>
-                <p>Teste seus conhecimentos como Desenvolvedor e adivinhe a palavra secreta!</p>
-                <input type="text" id="user-input" placeholder="Digite sua pergunta ou palpite"/>
-                    <button id="submit-btn">Enviar</button>
-                    <button id="hint-btn">Pedir Dica</button>
-                <div id="feedback"></div>
-                <p id="attempts">Tentativas restantes: 5</p>
-            <!-- Dica aparece aqui -->
-                <p id="hint" style="display: none"></p>
-                <div class="container-reset">
-                    <button id="restart-btn">Jogar Novamente</button>
+            <header class="container-header">
+                <a href="https://github.com/SergioDevSousa/imersao-alura.git" target="_blank">
+                    <i class="fab fa-github"></i> Meu GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/sergiosousa-tec/" target="_blank">
+                    <i class="fab fa-linkedin"></i> Meu LinkedIn
+                </a>
+            </header>
+            <main class="container-main">
+                <div class="game-container">
+                    <h1>Jogo de Adivinhação</h1>
+                    <p>Teste seus conhecimentos como Desenvolvedor e adivinhe a palavra secreta!</p>
+                    <input type="text" id="user-input" placeholder="Digite sua pergunta ou palpite"/>
+                        <button id="submit-btn">Enviar</button>
+                        <button id="hint-btn">Pedir Dica</button>
+                    <div id="feedback"></div>
+                    <p id="attempts">Tentativas restantes: 5</p>
+                <!-- Dica aparece aqui -->
+                    <p id="hint" style="display: none"></p>
+                    <div class="container-reset">
+                        <button id="restart-btn">Jogar Novamente</button>
+                    </div>
                 </div>
-            </div>
+            </main>
+            <footer class="container-footer">
+                <h2>Todos os direitos reservados</h2>
+                <p>Desenvolvido por Sérgio Sousa</p>
+            </footer>
             <script src="dados.js"></script>
             <script src="app.js"></script>
         </body>
