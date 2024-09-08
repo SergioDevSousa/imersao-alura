@@ -1,4 +1,6 @@
 # Jogo advinhação DEV - Imersão ALURA-GEMINI 👋
+[Gostou? Vote no meu projeto aqui!](https://discord.com/channels/1277631721822748742/1277631722716008535/1281675107332264046)
+
 
 
 ## 🚀 Sobre mim
