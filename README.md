@@ -1,5 +1,6 @@
+# Jogo advinhação DEV - Imersão ALURA-GEMINI 👋
+[Gostou? Vote no meu projeto aqui!](https://discord.com/channels/1277631721822748742/1277631722716008535/1281675107332264046)
 
-# Imersão ALURA-GEMINI 👋
 
 
 ## 🚀 Sobre mim
@@ -10,11 +11,11 @@ Sou estudante de Analise e Desenvolvimento de Sistemas pela UNIFATECIE e conclui
 
 Desafio HTML, CSS e JavaScript da Imersão ALURA com IA Gemini - Google
 
-## Título: Jogo de Adivinhação de Palavras em JavaScript
+## Título: Jogo de Adivinhação de Palavras
 
 ## Descrição:
 
-Este projeto é um jogo de adivinhação de palavras simples e divertido, desenvolvido em JavaScript. O jogador precisa adivinhar uma palavra secreta, recebendo dicas e feedback a cada tentativa. O jogo inclui funcionalidades como:
+Este projeto é um jogo de adivinhação de palavras simples onde você se diverte e estuda ao mesmo tempo. Desenvolvido em JavaScript, HTML e CSS, o jogador precisa adivinhar uma palavra secreta, recebendo dicas e feedback a cada tentativa. Vamos conhecer? O jogo inclui funcionalidades como:
 
 ## Tecnologias
 
