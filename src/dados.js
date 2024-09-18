@@ -64,14 +64,3 @@ const words = [
 
 
 
-
-
-
-
-
-
-
-
-word: "npm"
-hint: "Gerenciador de pacotes JavaScript."
-
