@@ -20,7 +20,7 @@ const words = [
         hint: "Uma biblioteca JavaScript para construir interfaces de usuário." 
     },
     { 
-        word: "algoritimo", 
+        word: "algoritmo", 
         hint: "Sequência de passos para resolver um problema." 
     },
     { 
